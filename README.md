@@ -1,1 +1,1 @@
-# Medical_image_Seg
+# Tissue_image_Seg
