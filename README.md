@@ -1,6 +1,9 @@
 # Tissue_image_Seg
 
-Approach:
+##Testing Enviroment
+Ubuntu18.04, Python 3.9, CUDA 11.2, cuDNN 8, NVCC, Tensorflow 2.8.0, VNC
+
+##Approach:
 1.	Data Preprocessing:
 To handle the data during the training, the original images were chopped into smaller images with size (256,256,3), as well as the labels, resulting in a dataset with a larger volume compared to the original data.
 For normalization, the values in the image arrays were divided by 255.0 and transformed as float16 to reduce volume.
