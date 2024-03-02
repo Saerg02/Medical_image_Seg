@@ -20,16 +20,3 @@ Findings:
 1.	Data Volume: The chopping operation significantly increased the data volume compared to the original data.
 2.	Model Performance: The prediction performance may not meet expectations, even though the accuracy during training was relatively high. This could be attributed to the small proportion of '1' labels in the data, causing class imbalance.
 3.	Probability Thresholding: Some predictions have very low probabilities, which cannot be effectively plotted with a threshold of 0.5. However, these low probabilities can still provide meaningful information. Adjusting the probability threshold (e.g., setting it to 0.01) can lead to better visualization of the predictions.
-
-
-
-
-
-
-
- 
-Figure 1.1 Threshold as 0.5
-
- 
-Figure 1.1 Threshold as 0.01
-
